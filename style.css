@@ -1,0 +1,48 @@
+html {
+  background-color: #f2c62a;
+}
+.Analog-clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock-frame {
+  position: relative;
+  width: 512px;
+  height: 512px;
+}
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image1 {
+  top: 0;
+  left: 0;
+}
+.image2 {
+  top: 0;
+  right: 0;
+}
+.image3 {
+  bottom: 0;
+  left: 0;
+}
+.image4 {
+  bottom: 0;
+  right: 0;
+}
+
+.clock-information {
+  font-size: 40px;
+  font-weight: 700;
+}
+.change-clock-info {
+  width: 240px;
+  height: 60px;
+  border-radius: 40px;
+  font-size: 20px;
+}
